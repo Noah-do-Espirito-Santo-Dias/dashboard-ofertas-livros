@@ -10,7 +10,7 @@ PASTA = Path(__file__).parent
 CAMINHO_LIVROS = PASTA / "livros.csv"
 
 
-def ler_livros() -> list[dict]:
+def ler_livros():
     """
     Lê o arquivo CSV de livros e retorna uma lista de dicionários.
     return: Lista contendo os dicionários com as informações de cada livro.
